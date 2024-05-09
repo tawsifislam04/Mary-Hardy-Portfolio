@@ -1,0 +1,267 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* nav releted */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #181818;
+    ;
+}
+
+.orange {
+    color: rgb(253, 110, 10);
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 51px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+/* header releted */
+.header {
+    background-color: hsl(24, 100%, 98%);
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+    
+
+}
+
+.banner .profile-pic {
+    width: 510px;
+}
+
+.greeting {
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    margin-top: 5px;
+    margin-bottom: 23px;
+}
+header{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* main releted  */
+ 
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
+}
+
+
+/* section releted */
+
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 110px 95px;
+}    
+    
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+
+}
+
+.info-title{
+    margin-bottom: 0px;
+    color: #757575;
+    font-size: 20px;
+}
+
+.info-description{
+    margin-top: 2px;
+    font-size: 20px;
+    color: #474747;
+    font-weight: 900;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    max-width: 927px;
+    margin: 30px auto;
+}
+
+/* skills related */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill{
+    padding: 30px 60px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,0.06);
+}
+
+.skill-description{
+    color: #757575;
+}
+
+#one{
+    padding:30px 95px;
+}
+
+/* resume related */
+
+.resume-container{
+    display: flex;
+}
+
+.resume-colum-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-item-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-item-institute{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+#resume{
+    margin-bottom: 122px;
+}
+
+.resume-description{
+    font-weight: 400;
+    color: #757575;
+}
+
+.resume-colum{
+    margin-left: 75px;
+    margin-right: 95px;
+}
+
+.resume-item{
+    max-width: 510px;
+}
+
+#resume-btn{
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+footer{
+    margin-top: 113px;
+    display: flex;
+    gap: 117px;
+    background-color:#FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-colum-description{
+    font-weight: 400;
+    color: #474747;
+    margin-top: 0px;
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+.footer-colum-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+footer a{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.contact input,textarea{
+    display: block;
+    margin-bottom: 24px;
+    width: 461px;
+    padding: 18px 65px 18px 30px;
+}
+
+#message{
+    height: 180px;
+}
+#footer-btn{
+    width: 150px;
+
+}
+
