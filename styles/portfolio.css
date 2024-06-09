@@ -325,6 +325,9 @@ footer a{
     .skill{
         padding: 20px;
     }
+    nav{
+        flex-direction: column;
+    }
     header{
         background-size:auto , 90%;
     }
