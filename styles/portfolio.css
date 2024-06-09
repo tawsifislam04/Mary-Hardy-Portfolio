@@ -55,9 +55,6 @@ nav a {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
     justify-content: space-between;
 }
 
@@ -88,9 +85,10 @@ nav a {
     margin-bottom: 23px;
 }
 header{
-    background-image: url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: left;
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left , bottom right;
+    background-size:auto , 50%;
 }
 /* main releted  */
  
@@ -274,6 +272,8 @@ footer a{
 /* Mobile */
 
 @media screen and (max-width:576px) {
+
+    
     .skills-container , .resume-container , footer{
         flex-direction: column;
     }
@@ -295,6 +295,12 @@ footer a{
     .footer-colum{
         width: 100%;
     }
+    .about{
+        padding: 15px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width: 992px) {
@@ -315,4 +321,11 @@ footer a{
     footer{
        padding: 20px;
     }    
+    .about{
+        padding: 10px;
+    }
+    .about-info-container{
+        justify-content: none;
+        gap: 20px;
+    }
 }
