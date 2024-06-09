@@ -285,11 +285,12 @@ footer a{
         margin-right: 20px;
     }
     footer{
-        padding: 16px;
+        padding: 26px;
         align-items: center;
     }
     .contact input,textarea{
-        width: 60%;
+        width: 70%;
+        margin-left: 1px;
     }
     .footer-colum{
         width: 100%;
@@ -307,5 +308,11 @@ footer a{
         margin-left: 20px;
         margin-right: 20px;
     }    
-    
+    .contact input,textarea{
+        width: 70%;
+        margin-left: 1px;
+    }
+    footer{
+       padding: 20px;
+    }    
 }
