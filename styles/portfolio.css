@@ -44,6 +44,7 @@ nav a {
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
+    margin-bottom: 7px;
 }
 
 /* header releted */
@@ -273,9 +274,16 @@ footer a{
 
 @media screen and (max-width:576px) {
 
-    
+    .banner, nav ,
     .skills-container , .resume-container , footer{
         flex-direction: column;
+    }
+    header{
+        background-size:auto , 90%;
+    }
+
+    .banner .profile-pic{
+        width: 100%;
     }
     #one{
         padding: 20px;
@@ -301,6 +309,14 @@ footer a{
     .about-info-container{
         flex-direction: column;
     }
+    nav>ul{
+        flex-direction: column;
+        gap: 13px;
+    }
+    .btn{
+        margin-bottom: 19px;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width: 992px) {
