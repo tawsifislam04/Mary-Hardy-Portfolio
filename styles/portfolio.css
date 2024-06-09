@@ -61,8 +61,6 @@ nav a {
 
 .banner-content {
     max-width: 500px;
-    
-
 }
 
 .banner .profile-pic {
@@ -324,6 +322,11 @@ footer a{
 @media screen and (min-width:576px) and (max-width: 992px) {
     .skill{
         padding: 20px;
+        width: 40%;
+    }
+    .skills-container{
+        flex-wrap: wrap;
+        justify-content: center;
     }
     nav{
         flex-direction: column;
@@ -345,7 +348,7 @@ footer a{
         margin-right: 20px;
     }    
     .contact input,textarea{
-        width: 70%;
+        width: 50%;
         margin-left: 1px;
     }
     footer{
