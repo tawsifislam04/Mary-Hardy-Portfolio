@@ -265,3 +265,47 @@ footer a{
 
 }
 
+/* Responsive Styles */
+
+.hide{
+    display: none;
+}
+
+/* Mobile */
+
+@media screen and (max-width:576px) {
+    .skills-container , .resume-container , footer{
+        flex-direction: column;
+    }
+    #one{
+        padding: 20px;
+    }
+    .resume-colum{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    footer{
+        padding: 16px;
+        align-items: center;
+    }
+    .contact input,textarea{
+        width: 60%;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .skill{
+        padding: 20px;
+    }
+    .resume-container {
+        gap: 60px;
+    }
+    .resume-colum{
+        margin-left: 20px;
+        margin-right: 20px;
+    }    
+    
+}
